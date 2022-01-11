@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Recomendation">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Top 5 Similar Motorcycle: "
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_below="@+id/imageAllMotor"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:id="@+id/Top5"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Motorcycle Name: "
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_below="@+id/Top5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:id="@+id/in1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1: "
+
+        android:textSize="20sp"
+        android:layout_below="@+id/in1"
+        android:id="@+id/txtOne"/>
+
+    <TextView
+        android:id="@+id/OneAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtOne"
+        android:layout_marginTop="1dp"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:text="Recomendation 1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2: "
+        android:textSize="20sp"
+        android:layout_below="@+id/OneAnswer"
+        android:id="@+id/txtTwo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recomendation 2"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txtTwo"
+        android:id="@+id/TwoAnswer"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3: "
+        android:textSize="20sp"
+        android:layout_below="@+id/TwoAnswer"
+        android:id="@+id/txtThree"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recomendation 3"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txtThree"
+        android:id="@+id/ThreeAnswer"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4: "
+        android:textSize="20sp"
+        android:layout_below="@+id/ThreeAnswer"
+        android:id="@+id/txtFour"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recomendation 4"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:layout_below="@id/txtFour"
+        android:id="@+id/FourAnswer"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5: "
+        android:textSize="20sp"
+        android:layout_below="@+id/FourAnswer"
+        android:id="@+id/txtFive"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recomendation 5"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txtFive"
+        android:id="@+id/FiveAnswer"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="20sp"
+        android:layout_below="@+id/FiveAnswer"
+        android:id="@+id/txtinvisible"/>
+
+    <Button
+        android:id="@+id/bttntoSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtinvisible"
+        android:layout_centerHorizontal="true"
+        android:text="Search" />
+
+
+    <!--    <Button-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/bttn1"-->
+<!--        android:text="Submit"-->
+<!--        android:layout_below="@id/in1"-->
+<!--        android:layout_margin="20dp"-->
+<!--        android:padding="20dp"/>-->
+
+
+
+</RelativeLayout>
